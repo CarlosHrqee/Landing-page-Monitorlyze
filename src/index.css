@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,15 +33,34 @@
     @apply border-border;
   }
   body {
-    @apply bg-surface text-primary antialiased;
+    @apply bg-gray-900 text-gray-100 antialiased;
   }
 }
 
 .glass {
-  @apply bg-white bg-opacity-10 backdrop-blur-lg border-2 border-white border-opacity-20;
+  @apply bg-gray-800/30 backdrop-blur-lg border border-gray-700/50;
 }
 
 .dot-pattern {
   background-image: radial-gradient(circle at 1px 1px, #828179 2px, transparent 0);
   background-size: 24px 24px;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-10px) translateX(5px);
+  }
+  50% {
+    transform: translateY(0) translateX(10px);
+  }
+  75% {
+    transform: translateY(10px) translateX(5px);
+  }
+}
+
+.animate-float {
+  animation: float 15s ease-in-out infinite;
 }

@@ -1,60 +1,61 @@
+
 const faqs = [
   {
-    question: "How do I detect idle resources?",
-    answer: "Our platform automatically scans and identifies unused AWS resources...",
-    iconBg: "bg-pink-50",
+    question: "Como o Monitorlyze pode reduzir meus custos de suporte?",
+    answer: "Nosso agente IA automatiza a resolução de problemas comuns de e-commerce como trocas, devoluções e problemas logísticos, reduzindo a necessidade de equipes grandes de suporte.",
+    iconBg: "bg-indigo-900/20",
   },
   {
-    question: "Why can't I get any support?",
-    answer: "We provide 24/7 dedicated support to help you with any AWS-related issues...",
-    iconBg: "bg-purple-50",
+    question: "Em quais canais o Monitorlyze funciona?",
+    answer: "Nosso agente atua em diversos canais como WhatsApp, Instagram, webchat no site, e-mail e ligações telefônicas, garantindo uma experiência omnichannel.",
+    iconBg: "bg-purple-900/20",
   },
   {
-    question: "How can I forecast accurately?",
-    answer: "Our advanced analytics and machine learning models provide precise cost forecasting...",
-    iconBg: "bg-blue-50",
+    question: "O agente consegue resolver problemas complexos?",
+    answer: "Sim, nossos agentes são treinados para resolver problemas específicos do seu negócio, desde questões simples até casos mais complexos de logística e atendimento.",
+    iconBg: "bg-blue-900/20",
   },
   {
-    question: "Is it time to buy a savings plan?",
-    answer: "Our platform analyzes your usage patterns to recommend optimal savings plans...",
-    iconBg: "bg-pink-50",
+    question: "Como é feita a integração com meu e-commerce?",
+    answer: "Oferecemos um processo de integração simplificado com as principais plataformas de e-commerce, permitindo que você esteja operacional em poucos dias.",
+    iconBg: "bg-indigo-900/20",
   },
   {
-    question: "How do I reduce data transfer costs?",
-    answer: "We analyze your data transfer patterns and provide optimization recommendations...",
-    iconBg: "bg-pink-50",
+    question: "Posso personalizar as respostas do agente?",
+    answer: "Absolutamente! O Monitorlyze é totalmente personalizável para refletir o tom e a identidade da sua marca, garantindo uma experiência coesa para seus clientes.",
+    iconBg: "bg-purple-900/20",
   },
   {
-    question: "Why did I get a surprise AWS bill?",
-    answer: "We help prevent unexpected costs by monitoring your usage in real-time...",
-    iconBg: "bg-purple-50",
+    question: "Como posso medir o sucesso do Monitorlyze?",
+    answer: "Nossa plataforma oferece métricas detalhadas sobre taxa de resolução, tempo médio de atendimento, satisfação do cliente e muito mais para que você possa acompanhar o ROI.",
+    iconBg: "bg-blue-900/20",
   },
 ];
 
 const FAQ = () => {
   return (
-    <section id="faq" className="py-24 px-6 bg-surface">
+    <section id="faq" className="py-24 px-6 bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center gap-2 justify-center mb-4">
-          <div className="w-6 h-6 rounded-full border border-primary/20 flex items-center justify-center">
-            <span className="text-sm">?</span>
+          <div className="w-6 h-6 rounded-full border border-gray-600 flex items-center justify-center">
+            <span className="text-sm text-gray-300">?</span>
           </div>
-          <span className="text-sm text-secondary">The problem</span>
+          <span className="text-sm text-gray-400">Perguntas Frequentes</span>
         </div>
         
-        <h2 className="text-4xl md:text-6xl font-bold text-center mb-16">
-          The cloud is complicated
+        <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-500 bg-clip-text text-transparent">
+          Dúvidas comuns
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {faqs.map((faq, index) => (
             <div 
               key={index} 
-              className="bg-white p-8 rounded-3xl hover:shadow-lg transition-all duration-300 border border-gray-100"
+              className="bg-gray-800/50 p-8 rounded-3xl hover:shadow-lg transition-all duration-300 border border-gray-700"
             >
               <div className={`w-12 h-6 ${faq.iconBg} rounded-full mb-6`} />
-              <h3 className="text-xl font-medium mb-3">{faq.question}</h3>
-              <p className="text-secondary text-sm">{faq.answer}</p>
+              <h3 className="text-xl font-medium mb-3 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">{faq.question}</h3>
+              <p className="text-gray-300 text-sm">{faq.answer}</p>
             </div>
           ))}
         </div>
