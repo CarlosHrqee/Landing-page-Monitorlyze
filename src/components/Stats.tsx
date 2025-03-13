@@ -12,7 +12,7 @@ const Stats = () => {
         <div className="grid md:grid-cols-3 gap-12 text-center">
           {stats.map((stat, index) => (
             <div key={index} className="space-y-2">
-              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-500 bg-clip-text text-transparent">{stat.number}</div>
+              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-400 via-lime-300 to-emerald-500 bg-clip-text text-transparent">{stat.number}</div>
               <div className="text-gray-300">{stat.label}</div>
             </div>
           ))}

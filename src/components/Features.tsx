@@ -18,7 +18,7 @@ const Features = () => {
   return (
     <section id="features" className="py-24 px-6 bg-gray-900/50">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
           Nossos Diferenciais
         </h2>
         
@@ -32,7 +32,7 @@ const Features = () => {
               key={index}
               className="glass p-8 rounded-2xl hover:bg-white/5 transition-all duration-300 border border-gray-700"
             >
-              <h3 className="text-xl font-semibold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">{feature.title}</h3>
+              <h3 className="text-xl font-semibold mb-4 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">{feature.title}</h3>
               <p className="text-gray-300">{feature.description}</p>
             </div>
           ))}

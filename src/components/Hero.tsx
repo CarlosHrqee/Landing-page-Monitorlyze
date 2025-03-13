@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute top-1/3 right-1/3 w-3 h-3 rounded-full bg-gray-700 border-2 border-gray-600 animate-float"></div>
       
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 text-center">
-        <h1 className="text-[60px] md:text-[80px] leading-[1] font-medium tracking-[-0.02em] bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-500 bg-clip-text text-transparent mb-8">
+        <h1 className="text-[60px] md:text-[80px] leading-[1] font-medium tracking-[-0.02em] bg-gradient-to-r from-green-400 via-lime-300 to-emerald-500 bg-clip-text text-transparent mb-8">
           Monitorlyze<br />Suporte IA
         </h1>
         
@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <button className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-purple-700 text-white px-6 py-3 rounded-lg font-medium hover:from-indigo-600 hover:to-purple-800 transition-all mb-12">
+        <button className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-700 text-white px-6 py-3 rounded-lg font-medium hover:from-green-600 hover:to-emerald-800 transition-all mb-12">
           <span className="w-4 h-4">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
