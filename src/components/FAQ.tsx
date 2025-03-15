@@ -1,33 +1,47 @@
+import { 
+  FaDollarSign, 
+  FaComments, 
+  FaCogs, 
+  FaPlug, 
+  FaPaintBrush, 
+  FaChartLine 
+} from 'react-icons/fa';
 
 const faqs = [
   {
-    question: "Como o Monitorlyze pode reduzir meus custos de suporte?",
-    answer: "Nosso agente IA automatiza a resolução de problemas comuns de e-commerce como trocas, devoluções e problemas logísticos, reduzindo a necessidade de equipes grandes de suporte.",
+    question: "Como o seu software aumenta meu faturamento?",
+    answer: "Nosso agente IA cria campanhas personalizadas em massa via SMS, Email e WhatsApp, otimizando conversões e gerando resultados instantâneos com base nos dados do seu ecommerce.",
+    icon: <FaDollarSign className="text-green-400" />,
     iconBg: "bg-green-900/20",
   },
   {
-    question: "Em quais canais o Monitorlyze funciona?",
-    answer: "Nosso agente atua em diversos canais como WhatsApp, Instagram, webchat no site, e-mail e ligações telefônicas, garantindo uma experiência omnichannel.",
+    question: "Em quais canais as campanhas são enviadas?",
+    answer: "Nosso software dispara campanhas em SMS, Email e WhatsApp, alcançando seus clientes onde eles estão, com mensagens personalizadas e automáticas.",
+    icon: <FaComments className="text-emerald-400" />,
     iconBg: "bg-emerald-900/20",
   },
   {
-    question: "O agente consegue resolver problemas complexos?",
-    answer: "Sim, nossos agentes são treinados para resolver problemas específicos do seu negócio, desde questões simples até casos mais complexos de logística e atendimento.",
+    question: "As campanhas parecem humanas ou robóticas?",
+    answer: "Nosso agente IA é treinado para criar mensagens naturais e envolventes, refletindo o tom da sua marca, garantindo que seus clientes sintam que estão falando com uma pessoa real.",
+    icon: <FaCogs className="text-lime-400" />,
     iconBg: "bg-lime-900/20",
   },
   {
-    question: "Como é feita a integração com meu e-commerce?",
-    answer: "Oferecemos um processo de integração simplificado com as principais plataformas de e-commerce, permitindo que você esteja operacional em poucos dias.",
+    question: "É fácil integrar com meu ecommerce?",
+    answer: "Sim! Com uma integração simples e rápida, nosso software se conecta ao seu sistema em poucos minutos, puxando dados para começar as campanhas imediatamente.",
+    icon: <FaPlug className="text-green-400" />,
     iconBg: "bg-green-900/20",
   },
   {
-    question: "Posso personalizar as respostas do agente?",
-    answer: "Absolutamente! O Monitorlyze é totalmente personalizável para refletir o tom e a identidade da sua marca, garantindo uma experiência coesa para seus clientes.",
+    question: "Posso personalizar as campanhas?",
+    answer: "Com certeza! Você pode escolher entre diversos modelos prontos e ajustar o conteúdo para refletir a identidade do seu ecommerce, garantindo campanhas únicas para cada cliente.",
+    icon: <FaPaintBrush className="text-emerald-400" />,
     iconBg: "bg-emerald-900/20",
   },
   {
-    question: "Como posso medir o sucesso do Monitorlyze?",
-    answer: "Nossa plataforma oferece métricas detalhadas sobre taxa de resolução, tempo médio de atendimento, satisfação do cliente e muito mais para que você possa acompanhar o ROI.",
+    question: "Como acompanho os resultados das campanhas?",
+    answer: "Oferecemos métricas detalhadas como taxas de abertura, cliques, conversões e aumento de faturamento, para você medir o sucesso de cada campanha em tempo real.",
+    icon: <FaChartLine className="text-lime-400" />,
     iconBg: "bg-lime-900/20",
   },
 ];
@@ -43,7 +57,7 @@ const FAQ = () => {
           <span className="text-sm text-gray-400">Perguntas Frequentes</span>
         </div>
         
-        <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-green-400 via-lime-300 to-emerald-500 bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 text-white">
           Dúvidas comuns
         </h2>
         
@@ -53,11 +67,30 @@ const FAQ = () => {
               key={index} 
               className="bg-gray-800/50 p-8 rounded-3xl hover:shadow-lg transition-all duration-300 border border-gray-700"
             >
-              <div className={`w-12 h-6 ${faq.iconBg} rounded-full mb-6`} />
-              <h3 className="text-xl font-medium mb-3 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">{faq.question}</h3>
+              <div className={`w-12 h-12 ${faq.iconBg} rounded-full mb-6 flex items-center justify-center`}>
+                {faq.icon}
+              </div>
+              <h3 className="text-xl font-medium mb-3 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+                {faq.question}
+              </h3>
               <p className="text-gray-300 text-sm">{faq.answer}</p>
             </div>
           ))}
+        </div>
+
+        {/* Botão de CTA com redirecionamento */}
+        <div className="mt-12 text-center">
+          <a 
+            href="https://tally.so/r/wLM912" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-emerald-700 text-white px-6 py-3 rounded-lg font-medium hover:from-green-600 hover:to-emerald-800 transition-all"
+          >
+            <span className="w-4 h-4">
+              <FaPlug className="text-white" />
+            </span>
+            Integrar ao meu ecommerce
+          </a>
         </div>
       </div>
     </section>

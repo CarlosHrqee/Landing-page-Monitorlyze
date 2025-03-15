@@ -1,4 +1,3 @@
-
 const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 px-6 py-4 bg-gray-900/80 backdrop-blur-lg">
@@ -17,15 +16,20 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-gray-300 hover:text-white transition-colors">Recursos</a>
-          <a href="#channels" className="text-gray-300 hover:text-white transition-colors">Canais</a>
-          <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">Preços</a>
+          <a href="#channels" className="text-gray-300 hover:text-white transition-colors">Recursos</a>
+          <a href="#integration" className="text-gray-300 hover:text-white transition-colors">Integrações</a>
+          <a href="#Stats" className="text-gray-300 hover:text-white transition-colors">Resultados</a>
           <a href="#faq" className="text-gray-300 hover:text-white transition-colors">FAQ</a>
         </div>
 
-        <button className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500 font-medium hover:opacity-80 transition-colors">
-          Login
-        </button>
+        <a 
+          href="https://tally.so/r/wLM912" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500 font-medium hover:opacity-80 transition-colors"
+        >
+          Integrar agora
+        </a>
       </div>
     </nav>
   );
