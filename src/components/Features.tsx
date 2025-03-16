@@ -9,12 +9,12 @@ const platforms = [
   },
   {
     name: "NuvemShop",
-    icon: <img src="./src/components/nuvem.png" alt="NuvemShop" className="h-12 w-12 object-contain" />,
+    icon: <img src="public/images/nuvem.png" alt="NuvemShop" className="h-12 w-12 object-contain" />,
     description: "Conecte sua loja NuvemShop em poucos cliques"
   },
   {
     name: "CartPanda",
-    icon: <img src="./src/components/Cartpanda.png" alt="CartPanda" className="h-12 w-12 object-contain" />,
+    icon: <img src="public/images/Cartpanda.png" alt="CartPanda" className="h-12 w-12 object-contain" />,
     description: "Suporte especializado para lojas CartPanda"
   },
   {
@@ -24,12 +24,12 @@ const platforms = [
   },
   {
     name: "Magento",
-    icon: <img src="./src/components/magento.jpeg" alt="Magento" className="h-12 w-12 object-contain" />,
+    icon: <img src="public/images/magento.jpeg" alt="Magento" className="h-12 w-12 object-contain" />,
     description: "Integração avançada com recursos da Magento"
   },
   {
     name: "VTEX",
-    icon: <img src="./src/components/vtex.png" alt="VTEX" className="h-12 w-12 object-contain" />,
+    icon: <img src="public/images/vtex.png" alt="VTEX" className="h-12 w-12 object-contain" />,
     description: "Funcionalidades exclusivas para plataforma VTEX"
   },
 ];
