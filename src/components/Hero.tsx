@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         <div className="max-w-[800px] mx-auto border-4 border-gray-700 rounded-xl shadow-xl overflow-hidden">
           <img
-            src="public/images/service.png"
+            src="/images/service.png"
             alt="Dashboard do nosso agente IA"
             className="w-full h-auto"
           />
