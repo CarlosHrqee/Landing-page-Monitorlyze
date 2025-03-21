@@ -19,12 +19,12 @@ const Hero = () => {
           <span className="inline-block w-2 h-2 rounded-full bg-green-500 mr-2"></span>
           Melhor Agente IA ecommerce 2025
         </div>
-        <h1 className="text-[35px] md:text-[60px] leading-[1.2] font-bold tracking-[-0.02em] text-white mb-8">
-          <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">Aumente</span> suas vendas com campanhas em massa <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">personalizadas</span> por IA ⚡
+        <h1 className="text-[50px] md:text-[60px] leading-[1.2] font-bold tracking-[-0.02em] text-white mb-8">
+          <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">Resolva</span> os problemas do seu suporte com o <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent"> Agente IA </span>especializado na sua loja ⚡
         </h1>
-        <div className="max-w-[700px] mx-auto mb-12">
+        <div className="max-w-[800px] mx-auto mb-12">
           <p className="text-xl text-gray-200">
-          Impulsione o faturamento do seu ecommerce com nosso agente IA que cria campanhas automáticas e sob medida via SMS, Email e WhatsApp!
+          Se você ainda depende de pessoas no suporte, está perdendo dinheiro com altos custos, tempo limitado e gargalos de atendimento – conheça a Monitorlyze, Agente IA que resolve tudo no Email, WhatsApp e Webchat, poupando tempo e custos!
           </p>
         </div>
         {/* Dois botões lado a lado com redirecionamento */}

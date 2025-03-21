@@ -3,9 +3,9 @@ import { CheckCircle, Brain, Zap, BarChart, DollarSign } from "lucide-react";
 const features = [
   {
     icon: <Brain className="h-8 w-8 text-green-400" />,
-    title: "PERSONALIZAÇÃO EXCLUSIVA PARA CADA CLIENTE",
-    subtitle: "Campanhas que falam diretamente com quem compra",
-    description: "Diga adeus às mensagens genéricas. Nosso Agente IA cria campanhas de SMS, Email e WhatsApp sob medida para cada cliente, usando dados do seu ecommerce como histórico de compras e preferências. É como ter um marqueteiro dedicado para cada pessoa na sua base, convertendo mais com personalização de verdade! 🙌🏻",
+    title: "AGENTE IA ESPECIALIZADO NA SUA LOJA",
+    subtitle: "Resoluções personalizadas com base nos seus dados",
+    description: "Nosso Agente IA é treinado com os dados da sua loja, entendendo cada detalhe do seu negócio – de logística a trocas e devoluções. Ele resolve problemas em Email, WhatsApp e Webchat com respostas sob medida, aumentando a satisfação do cliente e reduzindo o tempo de espera. É como ter um especialista que conhece seu ecommerce por dentro! 🙌🏻",
     image: "/images/first.png",
     buttons: [
       { text: "Iniciar teste grátis", primary: true, href: "https://tally.so/r/wLM912" },
@@ -14,30 +14,30 @@ const features = [
   },
   {
     icon: <CheckCircle className="h-8 w-8 text-blue-400" />,
-    title: "HUMANIZAÇÃO NA CAMPANHA",
-    subtitle: "Comunicação que parece gente, não robô",
-    description: "Nosso Agente IA é treinado para criar mensagens naturais e envolventes, com tom humano que conecta e vende. Esqueça textos frios e automáticos – suas campanhas vão soar como se fossem escritas por um especialista em vendas do seu time, conquistando a confiança dos clientes em cada palavra.",
+    title: "ATENDIMENTO HUMANIZADO E INTELIGENTE",
+    subtitle: "Converse como gente, resolva como máquina",
+    description: "Esqueça respostas robóticas. Nosso Agente IA usa um tom natural e empático para lidar com logística, fornecimento ou devoluções, enquanto resolve tudo com a rapidez de uma IA. Seus clientes se sentem ouvidos e valorizados, o que aumenta o LTV e transforma atendimentos em oportunidades de fidelização.",
     image: "/images/second.png"
   },
   {
     icon: <Zap className="h-8 w-8 text-yellow-400" />,
-    title: "FACILIDADE DE INTEGRAÇÃO",
-    subtitle: "Conecte e comece a lucrar em minutos",
-    description: "Com uma integração simples e direta, nosso software se pluga ao seu ecommerce rapidinho – sem complicações técnicas. Ele puxa dados do seu sistema e já começa a criar campanhas automáticas e personalizadas. É tão fácil que você só precisa dizer 'vai' para ver o faturamento subir!",
+    title: "INTEGRAÇÃO TOTAL COM SEU ECOSSISTEMA",
+    subtitle: "Conecte CRM, ERP e rastreios em minutos",
+    description: "A Monitorlyze se pluga ao seu CRM, ERP e sistemas de rastreio sem complicações, unificando dados para um atendimento impecável. Problemas logísticos ou de estoque? Nosso Agente IA acessa tudo em tempo real e resolve rápido em Email, WhatsApp ou Webchat, poupando seu time de horas de trabalho manual.",
     image: "/images/raio.png"
   },
   {
     icon: <BarChart className="h-8 w-8 text-purple-400" />,
-    title: "AUMENTO INSTANTÂNEO DE FATURAMENTO",
-    subtitle: "Resultados que aparecem logo na primeira campanha",
-    description: "Nosso Agente IA não perde tempo: com campanhas otimizadas e disparos estratégicos via SMS, Email e WhatsApp, você vê o faturamento crescer desde o primeiro envio. É a solução perfeita para quem quer mais vendas agora, sem esperar semanas por resultados.",
+    title: "MAIS EFICIÊNCIA, MENOS CUSTOS",
+    subtitle: "Otimize processos e veja resultados imediatos",
+    description: "Com a Monitorlyze, seu suporte deixa de ser um custo e vira um diferencial competitivo. Nosso Agente IA reduz chamados repetitivos e erros humanos, resolvendo trocas, devoluções e dúvidas em poucos cliques. Isso significa menos despesas operacionais e mais foco no crescimento do seu negócio!",
     image: "/images/money.png"
   },
   {
     icon: <DollarSign className="h-8 w-8 text-emerald-400" />,
-    title: "DIVERSOS MODELOS DE CAMPANHAS PARA ECOMMERCES",
-    subtitle: "Opções prontas para qualquer objetivo",
-    description: "Seja para recuperar carrinhos abandonados, lançar promoções ou fidelizar clientes, nossa plataforma oferece vários modelos de campanhas testados e adaptados para ecommerces. O Agente IA personaliza cada um deles para o seu público, garantindo máxima conversão com o mínimo de esforço.",
+    title: "AUMENTO DO LTV E DA SATISFAÇÃO",
+    subtitle: "Clientes felizes voltam e gastam mais",
+    description: "Nosso Agente IA não só resolve problemas – ele cria experiências incríveis. Ao lidar com logística, fornecimento ou devoluções de forma ágila e personalizada em Email, WhatsApp e Webchat, seus clientes ficam mais satisfeitos e propensos a comprar novamente, elevando o LTV e fortalecendo sua marca.",
     image: "/images/data.png"
   }
 ];
@@ -50,7 +50,7 @@ const Features = () => {
           Recursos Exclusivos
         </h2>
         <p className="text-center text-gray-300 mb-16 max-w-2xl mx-auto">
-          Nossa plataforma foi projetada para turbinar o faturamento do seu ecommerce com campanhas inteligentes e personalizadas
+          Resolva os problemas do seu suporte com o Agente IA especializado na sua loja ⚡
         </p>
         
         <div className="space-y-16">

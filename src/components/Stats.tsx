@@ -1,17 +1,17 @@
 const stats = [
-  { number: "40%", label: "Aumento nas taxas de conversão" },
-  { number: "98%", label: "Campanhas entregues com sucesso" },
-  { number: "5min", label: "Tempo para configurar campanhas" },
-  { number: "60%", label: "Crescimento no faturamento mensal" },
+  { number: "85%", label: "Redução no tempo de resolução de chamados" },
+  { number: "95%", label: "Satisfação do cliente após atendimento" },
+  { number: "10min", label: "Tempo para integrar com seus sistemas" },
+  { number: "30%", label: "Aumento no LTV dos clientes" },
 ];
 
 const Stats = () => {
   return (
     <section id="Stats" className="py-24 px-6 bg-gradient-to-r from-gray-900 to-black text-white">
       <div className="max-w-7xl mx-auto">
-        {/* Headline com o mesmo gradiente dos números das métricas */}
+        {/* Headline ajustada para o contexto do Monitorlyze */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-white">
-          Transforme seu ecommerce com campanhas inteligentes!
+          Revolucione seu suporte com o poder da IA!
         </h2>
         <div className="grid md:grid-cols-4 gap-12 text-center">
           {stats.map((stat, index) => (
